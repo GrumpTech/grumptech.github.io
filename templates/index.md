@@ -6,9 +6,9 @@ Creating documents from templates is a common task in software development. This
 
 Some demo projects:
 
-- Mustache example layouts\
+- [Mustache example layouts](https://github.com/GrumpTech/mustache-example-layouts)\
 Contains example layouts for paginated content and one for e-mails.
-- template-renderer\
+- [template-renderer](https://github.com/GrumpTech/template-renderer)\
 Rendering mustache templates to PDFs with puppeteer.
 - template-editor\
 A template editor with functionality to create and test sets of mustache templates referencing each other. A [demo](/templates/demo) is provided.
@@ -70,20 +70,20 @@ License: See project, Apache License 2.0 at time of writing
 ### Playwright
 
 An open-source library providing control to Chromium, WebKit and Firefox. It is used for automated testing and creating PDFs. Playwright is maintained by Microsoft.\
-<https://playwright.dev/>\
+<https://playwright.dev>\
 License: See project, Apache License 2.0 at time of writing
 
 ### CodeMirror
 
 A text editor for the web specialized for editing code.\
-<https://codemirror.net/>\
+<https://codemirror.net>\
 <https://github.com/codemirror/dev>\
 License: See project, MIT License at time of writing
 
 ### TinyMCE
 
 An open-source WYSIWYG editor that allows users to create formatted HTML content. Project is funded by selling a cloud version and advanced plugins.\
-<https://www.tiny.cloud/docs/tinymce/latest/>\
+<https://www.tiny.cloud/docs/tinymce/latest>\
 <https://www.npmjs.com/package/tinymce>\
 License: See project\
 Version 6 has an MIT license.\
