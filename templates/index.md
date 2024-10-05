@@ -7,35 +7,30 @@ Creating documents from templates is a common task in software development. This
 Some demo projects:
 
 - [Mustache example layouts](https://github.com/GrumpTech/mustache-example-layouts)\
-Contains example layouts for paginated content and one for e-mails.
+  Contains example layouts for paginated content and e-mail.
 - [template-renderer](https://github.com/GrumpTech/template-renderer)\
-Rendering mustache templates to PDFs with puppeteer.
+  Rendering mustache HTML templates to PDFs with puppeteer and mustache.js.
 - template-editor\
-A template editor with functionality to create and test sets of mustache templates referencing each other. A [demo](/templates/demo) is provided.
+  A template editor with functionality to create and test sets of mustache templates referencing each other.\
+  See this [demo](/templates/demo).
 
-## Template language
+### Template language
 
 The demo projects all use mustache as template language. The [mustache template syntax](https://github.com/janl/mustache.js#templates) supports variables, conditional templates, repeatable sections and inclusion of other templates. The mustache template engine is [widely available](https://mustache.github.io).
 
-## Rendering templates
+### Rendering templates
 
 Recent developments made it possible to use HTML and CSS for typesetting.
 
 - Browsers are getting close to creating [print quality typography](https://onextrapixel.com/from-print-to-web-creating-print-quality-typography-in-the-browser/).
-- Puppeteer and Playwright are open-source libraries providing control to browsers. Both libraries provide functionality to create PDFs from HTML.
+- [Puppeteer](https://pptr.dev) and [Playwright](https://playwright.dev) are open-source libraries providing control to browsers. Both libraries provide functionality to create PDFs from HTML.
 - An open-source library, [paged.js](https://pagedjs.org), paginates HTML content for printing. This library is used to design books with HTML and CSS.
 
-### HTML
-
-Using HTML as basis for templates has a couple of advantages.
-
-- HTML is well known and has a lot of documentation.
-- HTML is widely supported, and it can handle complex designs.
-- HTML is well suited for version control like [git](https://en.wikipedia.org/wiki/Git).
+Using HTML as a basis for templates has a couple of advantages. HTML is well known, has a lot of documentation, and is widely supported. Also, it is well suited for version control like [git](https://en.wikipedia.org/wiki/Git).
 
 ## Open-source libraries
 
-The following list shows open-source libraries used for creating, testing and rendering templates.
+The following list shows the open-source libraries that made it possible to create, test and render templates.
 
 ### Paged.js
 
