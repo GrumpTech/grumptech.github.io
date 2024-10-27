@@ -1,6 +1,6 @@
 # Templates
 
-Creating documents from templates is a common task in software development. This document lists some demo projects for creating, testing and rendering templates with open-source libraries.
+Creating documents from templates is a common task in software development. This document lists some demo projects for creating, testing and rendering templates using open-source libraries.
 
 ## Demo projects
 
@@ -10,6 +10,8 @@ Some demo projects:
   Contains example layouts for paginated content and e-mail.
 - [template-renderer](https://github.com/GrumpTech/template-renderer)\
   Rendering mustache HTML templates to PDFs with puppeteer and mustache.js.
+- [lezer-mustache](https://github.com/GrumpTech/lezer-mustache)\
+  A mustache parser for lezer. CodeMirror editors use lezer parsers for syntax highlighting.
 - template-editor\
   A template editor with functionality to create and test sets of mustache templates referencing each other.\
   See this [demo](/templates/demo).
@@ -30,7 +32,7 @@ Using HTML as a basis for templates has a couple of advantages. HTML is well kno
 
 ## Open-source libraries
 
-The following list shows the open-source libraries that made it possible to create, test and render templates.
+Some open-source libraries to create, test and render templates.
 
 ### Paged.js
 
