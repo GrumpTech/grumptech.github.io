@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Error 404</title>
+    <script>
+      if (location.pathname.startsWith("/templates/demo/")) {
+        sessionStorage.setItem("template-editor_redirect", location.href);
+        location.replace(
+          `${location.protocol}//${location.hostname}/templates/demo`,
+        );
+      }
+    </script>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      body {
+        display: flex;
+      }
+      h1 {
+        margin: 0;
+      }
+      .center {
+        width: 400px;
+        height: 150px;
+        margin: auto;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Error 404</h1>
+      <p>Page not found</p>
+    </div>
+  </body>
+</html>
