@@ -79,11 +79,3 @@ A text editor for the web specialized in editing code.\
 <https://github.com/codemirror/dev>\
 License: See project, MIT License at time of writing
 
-### TinyMCE
-
-An open-source WYSIWYG editor that allows users to create formatted HTML content. This project is funded through sales of a cloud version and advanced plugins.\
-<https://www.tiny.cloud/docs/tinymce/latest>\
-<https://www.npmjs.com/package/tinymce>\
-License: See project\
-Version 6 has an MIT license.\
-Version 7 has a GPLv2 license.
