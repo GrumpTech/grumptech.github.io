@@ -17,7 +17,7 @@ The following projects explore PDF generation using open-source libraries.
 - [PDF generation benchmarks](https://github.com/GrumpTech/pdf-benchmarks): Node.js and C# benchmarks for PDF generation using Puppeteer and Playwright.
 - [lezer-mustache](https://github.com/GrumpTech/lezer-mustache): A mustache parser for Lezer created for syntax highlighting in CodeMirror editors.
 - *template-editor*: A tool for creating and testing mustache templates that reference each other.\
-  See this [demo](/templates/demo).
+  See this [demo](/demos/template-editor).
 
 In these projects, mustache is used as the template language due to its simple [syntax](https://github.com/janl/mustache.js#templates) and the widespread availability of the [mustache template engine](https://mustache.github.io). The mustache syntax supports variables, conditionals, repeatable sections, and the inclusion of other templates.
 
