@@ -3,10 +3,10 @@
   <head>
     <title>Error 404</title>
     <script>
-      if (location.pathname.startsWith("/templates/demo/")) {
+      if (location.pathname.startsWith("/demos/template-editor/")) {
         sessionStorage.setItem("template-editor_redirect", location.href);
         location.replace(
-          `${location.protocol}//${location.hostname}/templates/demo`,
+          `${location.protocol}//${location.hostname}/demos/template-editor`,
         );
       }
     </script>
