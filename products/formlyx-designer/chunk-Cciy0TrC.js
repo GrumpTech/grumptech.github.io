@@ -1,2 +1,0 @@
-import {p as py,g as gv}from'./main-KBM7YPA4.js';var r=(()=>{class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=py({type:e,selectors:[["thank-you"]],decls:1,vars:0,template:function(t,a){t&1&&gv(0,`Thank you!
-`);},styles:["[_nghost-%COMP%]{display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:20px;height:100%}"]})}return e})();export{r as ThankYouPage};

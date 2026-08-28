@@ -7,11 +7,15 @@
         location.replace(
           `${location.protocol}//${location.hostname}/demos/template-editor`,
         );
-      }
-      if (location.pathname.startsWith("/demos/form-designer/")) {
+      } else if (location.pathname.startsWith("/demos/form-designer/")) {
         sessionStorage.setItem("formlyx_designer_redirect", location.href);
         location.replace(
           `${location.protocol}//${location.hostname}/demos/form-designer`,
+        );
+      } else if (location.pathname.startsWith("/products/formlyx-designer/")) {
+        sessionStorage.setItem("formlyx_designer_redirect", location.href);
+        location.replace(
+          `${location.protocol}//${location.hostname}/products/formlyx-designer`,
         );
       }
     </script>
