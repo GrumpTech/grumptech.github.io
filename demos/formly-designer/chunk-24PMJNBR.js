@@ -1,0 +1,1 @@
+var e={storage:"local",storagePrefix:"formly_designer_",applyRedirect:!0,useSettings:!0};function g(){return e.useSettings?localStorage.getItem(`${e.storagePrefix}settings_backend_url`)??"":"/api"}function n(){return e.useSettings?localStorage.getItem(`${e.storagePrefix}settings_swagger_url`)??"":"/api/swagger/v1/swagger.json"}export{e as a,g as b,n as c};
