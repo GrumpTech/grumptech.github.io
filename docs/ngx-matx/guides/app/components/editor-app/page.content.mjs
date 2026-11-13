@@ -1,0 +1,1 @@
+export default {"schemaVersion":1,"id":"86d0e8eb35b344aac302031c","revision":"c00796fe17d97fb99032d6a6b5f1bf003cb964c320223b17aaf3bfc90345a21a","html":"<h1 class=\"ngde ngde\" id=\"editor-app\" href=\"components/editor-app\" headinglink=\"true\">Editor app<ng-doc-heading-anchor class=\"ng-doc-anchor ngde\" anchor=\"editor-app\"></ng-doc-heading-anchor></h1>"};

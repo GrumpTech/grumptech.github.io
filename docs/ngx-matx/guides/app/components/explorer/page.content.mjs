@@ -1,0 +1,1 @@
+export default {"schemaVersion":1,"id":"d87e4405556eb4f960d95953","revision":"0d18f468eb54ceec3b4a1175257afa5bd31de32906cff10625d6f253471aec33","html":"<h1 class=\"ngde ngde\" id=\"explorer\" href=\"components/explorer\" headinglink=\"true\">Explorer<ng-doc-heading-anchor class=\"ng-doc-anchor ngde\" anchor=\"explorer\"></ng-doc-heading-anchor></h1>"};

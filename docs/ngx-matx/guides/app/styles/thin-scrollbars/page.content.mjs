@@ -1,0 +1,1 @@
+export default {"schemaVersion":1,"id":"fd0b4ef397fd3cc9508288d1","revision":"a29942fb1d6fb037c90afd1da025f94c59303954864a7ec76816daf9d2d03172","html":"<h1 class=\"ngde ngde\" id=\"thin-scrollbars\" href=\"styles/thin-scrollbars\" headinglink=\"true\">Thin scrollbars<ng-doc-heading-anchor class=\"ng-doc-anchor ngde\" anchor=\"thin-scrollbars\"></ng-doc-heading-anchor></h1>"};

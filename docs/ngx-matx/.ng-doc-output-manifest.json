@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "projectId": "docs",
+  "generation": 1,
+  "revision": "eaff72dd82af43016abd38c3cfcbfa0d17c0a1b73a5755710e063194c3756bc3",
+  "files": [
+    {
+      "path": "assets/indexes.json",
+      "ownerId": "8d557d6052b68bbfcae7aea4599af563ac5935ed50a983b9191446ae8894d08f",
+      "digest": "5bfaa91aaacae4d1538d4e5d917c253f414c0af86edec8211281eda73e155899",
+      "role": "search"
+    },
+    {
+      "path": "assets/keywords.json",
+      "ownerId": "8d557d6052b68bbfcae7aea4599af563ac5935ed50a983b9191446ae8894d08f",
+      "digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "role": "asset"
+    },
+    {
+      "path": "context.ts",
+      "ownerId": "8d557d6052b68bbfcae7aea4599af563ac5935ed50a983b9191446ae8894d08f",
+      "digest": "5322591db64f8e73b373ff616da9237a0bbdd24f0ee392bb52d7e5aa3863ba26",
+      "role": "context"
+    },
+    {
+      "path": "guides/app/components/code-editor/demo-assets.ts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "a66010ed6a475039539912beeecaa30f9f645701560f868e498e060ea8e0f6d6",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/code-editor/index/page.content.d.mts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/index/page.content.mjs",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "711bb5eeddf4425e64d7e7b7ae85f7b0d51d67a9e5e0b24157936f49a8e70c1a",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/index/page.source.d.mts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/index/page.source.mjs",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "d0b2e2445f54e3d990275d1aa94b5eee61e7c3a825d7a80cc5030e1337cbd22a",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/index/page.ts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "e9f9b0dd40558d11ede96d1e11020da40ced5b8b61a7e0b5a561f20661ca061f",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/page.content.d.mts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/page.content.mjs",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "27fce209de506610a3551e826f1f2cb2fd976e28175e380449b0939a5fc135e2",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/page.source.d.mts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/page.source.mjs",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "fe5a0986f44d131b0ce02380e136da326156c24c26fde4473daf68af0a57b144",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/code-editor/page.ts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "5aafa57e8c880d9590eeb40908cbe319c50b06aa6d15f9111e21e4abf67b4280",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/code-editor/playgrounds.ts",
+      "ownerId": "2831675e3aeed39da2fceb61eca7744928330b0d6853d5dcfa2402a4b9110c66",
+      "digest": "08fa837e140d0f39e72789499707f476fa35a6dd411338d290881899f249031e",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/demo-assets.ts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "4020dce447095c67ba44dfa941599be8143b55f317839320ce3b53002f745dfd",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/index/page.content.d.mts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/index/page.content.mjs",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "d77144a3edb83a7a95ea33ca5ba32a89c8f54c08ccfebece1b608ca499172216",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/index/page.source.d.mts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/index/page.source.mjs",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "9d923f1b8cd671b2ff0ac422576341982b8fe2d1912613091ccf0a58d5d0448a",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/index/page.ts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "f61d145bf5c76ffbed17ed8bd5b40ba6de17f9c93aa226f0da6d9dfd25e3fc85",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/page.content.d.mts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/page.content.mjs",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "aea0537147789f4aa890135af593afd3b77a7b600fb2b017c0a6bd69b822e3f5",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/page.source.d.mts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/page.source.mjs",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "fa9e342dc73dc3e4cd5f5969a24d19106ec7df823f692186c8a4ea679ef2a22d",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/page.ts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "fd59cbf2cb800860da069acce50d6228aa0934b27c5a38a2a1619606d80fb0dd",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/confirmation-dialog/playgrounds.ts",
+      "ownerId": "d8d2a8e20d3efc9f3fa077372764269d00d8ed1e3772e1fc3c1e88d1f1b8c25b",
+      "digest": "2c82e277d0845f3ea7628a7930e35cec5cf142ebe71f2bf1247b6899429aeb18",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/demo-assets.ts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "ff9e9fad1d2104521256a987d97447c30c1bce1b33f1a5e8972d6f7a1d8c516e",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/index/page.content.d.mts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/index/page.content.mjs",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "a0a68a34b626879b391c20e17aa0d1f1fbe0dc49a69c3579c488e7ec80fcf0fe",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/index/page.source.d.mts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/index/page.source.mjs",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "9165b36ad2b43965a8b6a71cbb4de0fab20766cab2afc421cab58e282fbde6d6",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/index/page.ts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "20724f9b475db6e1d36f94bc88bee71d8970c557914c7c1f944b249c3d649e6e",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/page.content.d.mts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/page.content.mjs",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "568785ef4318d434cbba0464ebb4f15ccd16c2128ebab201e18e6acb5e49688d",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/page.source.d.mts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/page.source.mjs",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "e3d0306f436703e46ffb3d517763037d51f283bb8c375099f960dc02e0e71b48",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/page.ts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "da12d9468e1abbe5fd253d0a8ffb2aef829d7c6cff055ce26afa233f886e15de",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/drag-drop-tree/playgrounds.ts",
+      "ownerId": "4d3a73fd9d59d8078fc8979ec7756e50c0f2084bd3952fb8a5a51fc36d908d62",
+      "digest": "b21a2a53b674f69017e8189a738e6e02b7651bad9ecddebc81a5d5933c52067a",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/editor-app/demo-assets.ts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "3527b75bcb077eaf46de8faf704b9def46a9309094a3fc4e30842dd95621878d",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/editor-app/index/page.content.d.mts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/index/page.content.mjs",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "7be6748c18a810cd3da13f5dbbe2a6aa6adb33d713938b7a53a257ec8bbb944e",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/index/page.source.d.mts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/index/page.source.mjs",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "36668e040a3deeac7455276f64d7cbe8d06fe9c34bb0530071b0802606ff3194",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/index/page.ts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "b0a778b8b5a081f34b14e47bdaed6e450c2f6ec40f4109fa9bff524df1f0ec09",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/page.content.d.mts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/page.content.mjs",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "3c0fa05523b3fca4a32ec71f104bab0a945b6b0ba705d800cf05779e152d3dfc",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/page.source.d.mts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/page.source.mjs",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "5e77b3dc239390eeb323b656e0450912f0112b48b332a4d54b443ff68af5f396",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/editor-app/page.ts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "cdbb2f8c06469bff8ce4e7669040e0a4993051a72c7b60876b72521098508eea",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/editor-app/playgrounds.ts",
+      "ownerId": "c8b8760b14ccf9ac7e67ca18004fbc01304b152ad22ae56810a7ef2314b6c898",
+      "digest": "16f771296e735bf10f4e1ad759cc020ef469eb14de9916820ecedf65a6aca148",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/explorer/demo-assets.ts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "dbe9fffcd23141af9b57e7674235bce3e456255bffe494d43414e0b20da98e22",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/explorer/index/page.content.d.mts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/index/page.content.mjs",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "465c3160f4ae2d411c49ace2d1b8c537618086a81dab663ea5e7332b519a1443",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/index/page.source.d.mts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/index/page.source.mjs",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "56f8dc8bfe5aef81baba48eeccbab2085069e29f6f194d0babf796c314e16097",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/index/page.ts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "af300572a1a2231f73d342135508f6516503d4ccddb30fb287247b8d27828564",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/page.content.d.mts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/page.content.mjs",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "5ec4132ba2b59a3fea3de2c026f597ae0dfd2c7b6f17459ff09ba5adcc8fc71f",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/page.source.d.mts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/page.source.mjs",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "b6b2802a3b5182e5d503d6d60c1649c8eda6514164cc6d59b301279487cb5001",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/explorer/page.ts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "c95c2bbe6832cde76ec5ef4d78088c537098333ffcf20634087044600a3235ff",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/explorer/playgrounds.ts",
+      "ownerId": "f8b0360d50b019c635f094d5885c0931344878e4deee5c43af90f1596bb2ab19",
+      "digest": "cb80ae258c972c9be096faab07bdbc87f9f956e2d02e04efe1939533c259e608",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/file-importer/demo-assets.ts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "93fb40a921604ef3165328b640091f6582718e01351b39d93264a04d33fdbcf6",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/file-importer/index/page.content.d.mts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/index/page.content.mjs",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "a4c3c61aa324cde85912a75277ace0320f3d6b133658637048a9955bbe2c0227",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/index/page.source.d.mts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/index/page.source.mjs",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "2e973c0b8bb4f7788fd58e50f75d17a7a2c85e8395e0dc12e936e86134b27734",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/index/page.ts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "6b8f35f7877861555afe23d6daad8ab37fb5a1608d232fd04c0a317e1708a3a8",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/page.content.d.mts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/page.content.mjs",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "32d70bd24d3ed34e9346074e95d9f82636f6f744f8eb8198b757d74e979f3d2e",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/page.source.d.mts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/page.source.mjs",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "4af83717c3358a25d9cee09e5a27476c6f9a8edc4f6f5bc35d793022738b88c1",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-importer/page.ts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "4259aed0675f19f3a5b3b4c00fcbe78ac952541be3afb5cdc597b94f26245a17",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/file-importer/playgrounds.ts",
+      "ownerId": "60ee6d5df1204e1f915d2b1bb5a9159fce71cd99ef424209cadf679a8fd9204b",
+      "digest": "e63ae4fb076d2638a08ab0b0bf369ec000095521933ccbf9c0b807e6a9f7898a",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/demo-assets.ts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "498e871c0e580afb42d53ff49fe78fb408f941f52cdab064c5bdfe05ef8673b0",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/index/page.content.d.mts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/index/page.content.mjs",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "3ae63c654a0e0ed489b0147b15040a0d8f10598b97c7afe8cc85674c7f945825",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/index/page.source.d.mts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/index/page.source.mjs",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "434fb4e9046f03b5e9b49b95cf6c58aa63dff5421bc64ad6e9b80457d8f16693",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/index/page.ts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "a2b088e0ae43da89956300a7b9344a9047737a3550ad89d8d017bfbdde052765",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/page.content.d.mts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/page.content.mjs",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "c876ee64e0333ffa4d1a664875e41c7b0b757f8dfe34108c3fcc142bbcf0a5bd",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/page.source.d.mts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/page.source.mjs",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "78392fa4f9eaa2742e6dd7ae9f3a77289d98fda366344f8d668934740427be54",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/page.ts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "754b3e3723e58c17da5f4da3f23f1bdbaec8a01526a7e9288c86f37ad7df1dca",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/file-tab-bar/playgrounds.ts",
+      "ownerId": "b595bc9b3dab074a96f0d02601b6feaf2cdf03a14c3593b6e7f545220f819978",
+      "digest": "11fc86589000557111feb086d6561e367295488c7e7776e3b2b52a8b209df93f",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/demo-assets.ts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "c873a8b0436f91ee5d74a7e2ed83ea2070906a3705524a0cf6a83befa7daa5fd",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/index/page.content.d.mts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/index/page.content.mjs",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "6816a36c3d81d7a3c309d4a9dc6c45a49abf0296346a619889f54f8dd958d69c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/index/page.source.d.mts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/index/page.source.mjs",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "8c04a702c1bd10e2baae94b3275f22abb05d770f3cc31194066168b7474c32a7",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/index/page.ts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "3660408d05d2a64a63dbb766cad8f6ecf49c1984fb3667e3cca519ec7d1e37bc",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/page.content.d.mts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/page.content.mjs",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "bafe10458da0e728c691518d97801a84862728ae42c52ebee740e079e75206cf",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/page.source.d.mts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/page.source.mjs",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "3dad0489f8cce888ae3181d5f230d301d58b25f9037d36c0571b2d4290a0a3cd",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/page.ts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "9bf846aae3cbeb91c0c2a55152e5f95e2386a5069132a921b52e05087bf56d03",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/full-width-form-fields/playgrounds.ts",
+      "ownerId": "ded8bbefd3969e8f7c49b7d9c170fe13cb4749354fbb5a8152bedadf1043e059",
+      "digest": "dd766073dfbdb0b972cbcd81ac4be51d148452f068af199a9d2e19a444bcc4f9",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/menu-bar/demo-assets.ts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "65a3c15f0a10075856052cfd5cf971bb3e266cc27de748480bf9eb21744ac501",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/menu-bar/index/page.content.d.mts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/index/page.content.mjs",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "ef9d7eb1461f95a8286e6fc6859b1e57c41b680e3e3dbbda8c09fec5f18522b1",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/index/page.source.d.mts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/index/page.source.mjs",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "79cf005a2eaced06760f30dbc7a950e8c7ac2c4c62c1ae3abea3ad7219bd8855",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/index/page.ts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "4270b04fdc0e81747f366d28225f63e5028dcbfbd52af3a42dc1c2177b0d0bc6",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/page.content.d.mts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/page.content.mjs",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "0a12c4a15b08c66e16f4961b8717e3b468875f1715920e497979eb61da2542f9",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/page.source.d.mts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/page.source.mjs",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "8852491945236c48bfd832e546966561ef6927f5f79af58af6ae376ae9ca29ee",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/menu-bar/page.ts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "1992ee9b0154faa9e1351879eac82f5d6189a8aef4e73c60cbb79ffb226baa26",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/menu-bar/playgrounds.ts",
+      "ownerId": "932999ee2d92a5b10e4a4567d3be2815a2bfe2b833ca6db6c52b3c543c912028",
+      "digest": "29ae6c8fe7a81b8fd3b3b24e4b2bfccb058aa1069da4b132cc42b4964168ed97",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/demo-assets.ts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "b0d101ec6bdb40233b9c287cf044ed81182f61d40fc5b36a99d56464808b1358",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/index/page.content.d.mts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/index/page.content.mjs",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "c5d3cf1d5a29d340baaf17388f3d5ff6adcc564eeabb4ea289e33f0a602eca23",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/index/page.source.d.mts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/index/page.source.mjs",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "f03db349911d4bd136a19ebee0c8f0bc9f3be3a0e9967e1e7c8689ed57e1f0c0",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/index/page.ts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "8df7ade53b76f6fc6a1e085686e7587c5a3711d3291f4bb1d570d5a510eca4de",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/page.content.d.mts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/page.content.mjs",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "d8659a71b13994f8cd6ff50ee75be982593e5cc81aa52074f4d79abdf325dd13",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/page.source.d.mts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/page.source.mjs",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "eadaa83733ab2b1397405afeae7bf14e3fabae0a0dc37021b9f33a7dfd6f650b",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/page.ts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "b9ecba5dd5bfe7d8435d7625ae17db9280d82062075807cf1d43e26808dc161f",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/overflow-tooltip/playgrounds.ts",
+      "ownerId": "d06dfec17157f53de28d26af8a24df66365cc174d72d96b9f40aecbad10ccaff",
+      "digest": "59175810e5d89316ef03210e61b281b91e4e9b0054b55e09b0e6273b97604fc4",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/panel/demo-assets.ts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "59b9c9f70ce56fc4aad56abe3db7223e9559f4f169a203903a1025c361ee71c3",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/panel/index/page.content.d.mts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/index/page.content.mjs",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "06640b46e28e0359303dba1dd3e8b2c2d88ef934ea385323695bd62d4def1a69",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/index/page.source.d.mts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/index/page.source.mjs",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "1696987a6c7b76745028df68795bfecf2cefad7bcd41328c7be1c10bc8858249",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/index/page.ts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "85c129446e5cb70af6e22c313a3ea4a940dfeeb46ba53e200a28b42cbb6f2f9c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/page.content.d.mts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/page.content.mjs",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "29524e73f713366f846fe3fcc77f0cfc6ac219a3c33cc9b82e4706432210b8e2",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/page.source.d.mts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/page.source.mjs",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "6df32717b99581f728636cdc16afed6834a87df5d2691e4c09d8d349bb0f5c79",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/components/panel/page.ts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "452c8fe555ff904c83d994251d445c9f5eb2ec8da9dd34ee0d06277c9d243f12",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/components/panel/playgrounds.ts",
+      "ownerId": "726687d004b6afaa837668fc8b93d674a92d1492b32e67619f0fc78d6b0ffd71",
+      "digest": "cc568690dcb35001974be5bbc9203494c9165bab17b679d6d54536905f90770a",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/guides/getting-started/demo-assets.ts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "5f158cb49b4c0345e6a8ad4a8baa6325fb58532c806f912b82c9494ac118c201",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/guides/getting-started/index/page.content.d.mts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/index/page.content.mjs",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "6e81c5e1fe28c898c571f00d5535224699591d4441b6d74cee5e1f67516f7c75",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/index/page.source.d.mts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/index/page.source.mjs",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "92b626afb53ce405eaaa7f33b787d570fd53d2c9c92a4771a724e0f45972de1a",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/index/page.ts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "ae3d25fbca06950ce8fbadc423182f230484a171250c394b5e3013b11c0c6dfb",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/page.content.d.mts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/page.content.mjs",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "98149156a144ae61174e3dd651cc2bfea50834142131f167202b750745fc69b7",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/page.source.d.mts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/page.source.mjs",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "849a63d21ddbb9099eeb0b7607f1b768d5271fe025c79f049242928dd7ef4684",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/guides/getting-started/page.ts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "30404afe8c2c91aa2c0257f081fb395dd173e4ec8ed7d94e28c065f29352e9ae",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/guides/getting-started/playgrounds.ts",
+      "ownerId": "9cdb82d3301657aed26fb708a8849075bfa24bad05084faa40f2f5b923f410bb",
+      "digest": "248018ef9ff27d833f4c16a9a4dc75b8893312afcd966980787bd5e2553fa21d",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/demo-assets.ts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "e83064c183c4998f63f598563a0731dd91f23003d3c43d11efae76501c6d7975",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/index/page.content.d.mts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/index/page.content.mjs",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "f33fe4082033206f8be9ace87cb1f284253294d862ebfc698f89d6828ac2440b",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/index/page.source.d.mts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/index/page.source.mjs",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "582f5571a5fa5099e7591d72feddd508adf139244a3ca33e4dfbed93c55d9eba",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/index/page.ts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "f59c3a6b03992a6adf4d7b1e0b143ecfa8d62f5d922c7203f47f9966759c6074",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/page.content.d.mts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "497229fc7c667710a0fbc7503a1c48e125721c77cb1c759247ababc804814e1c",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/page.content.mjs",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "65d396f44aa32136167cae4035153a3581db9be12b19dfe5802637e6960fd572",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/page.source.d.mts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "0b6671738b00bb2abe13f2a4acc1de4ee7da13154bec550ba066215164aecb24",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/page.source.mjs",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "62c328074b2dce02d53dea3c0644bac8e4339ec26745beffb7cac3acb87892e5",
+      "role": "content"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/page.ts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "6de42afd9378075d2e85be355600b386430ae34d01be80eea2942682710bf2ab",
+      "role": "angular"
+    },
+    {
+      "path": "guides/app/styles/thin-scrollbars/playgrounds.ts",
+      "ownerId": "c5073d87d372d0f7041b6997eece8741ce6d405aee86440361cdcd7310d92e15",
+      "digest": "3b3e1e7f378db7c5eb003c5b7b1a0fc85016b359f2934a4cd46f6ddd3df2b862",
+      "role": "angular"
+    },
+    {
+      "path": "index.ts",
+      "ownerId": "8d557d6052b68bbfcae7aea4599af563ac5935ed50a983b9191446ae8894d08f",
+      "digest": "7cae7d5503f94d332b265a47c5f5f0a564e5c648ad20358b52cc19254ef00257",
+      "role": "angular"
+    },
+    {
+      "path": "routes.ts",
+      "ownerId": "8d557d6052b68bbfcae7aea4599af563ac5935ed50a983b9191446ae8894d08f",
+      "digest": "4d9aeea6b21d0909e9b05a09c7b0ae8fee6f8ebd992deb9fc3c782500c1294ef",
+      "role": "routes"
+    }
+  ]
+}

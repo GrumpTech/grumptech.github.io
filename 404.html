@@ -12,6 +12,11 @@
         location.replace(
           `${location.protocol}//${location.hostname}/demos/formly-designer`,
         );
+      } else if (location.pathname.startsWith("/docs/ngx-matx/")) {
+        sessionStorage.setItem("docs_redirect", location.href);
+        location.replace(
+          `${location.protocol}//${location.hostname}/docs/ngx-matx`,
+        );
       } else if (location.pathname.startsWith("/products/formly-designer/")) {
         sessionStorage.setItem("formly_designer_redirect", location.href);
         location.replace(
