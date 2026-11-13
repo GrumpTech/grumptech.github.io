@@ -1,1 +1,0 @@
-export default {"schemaVersion":1,"id":"fa63af5684ef8b613b85e6f7","revision":"205dc5a4d95582423c2511e6846d1481292ed4735b8fd274027e02e38fd0f1b2","html":"<h1 class=\"ngde ngde\" id=\"file-importer\" href=\"components/file-importer\" headinglink=\"true\">File importer<ng-doc-heading-anchor class=\"ng-doc-anchor ngde\" anchor=\"file-importer\"></ng-doc-heading-anchor></h1>"};

@@ -1,0 +1,1 @@
+var e={schemaVersion:1,id:`e81d683c64f522082f021b02`,revision:`3ddbdc3cc5e4b32459c9d48e2475f62c71ec269acad11a230837f81c73c26c37`,html:`<h1 class="ngde ngde" id="file-tab-bar" href="components/file-tab-bar" headinglink="true">File tab bar<ng-doc-heading-anchor class="ng-doc-anchor ngde" anchor="file-tab-bar"></ng-doc-heading-anchor></h1>`};export{e as default};

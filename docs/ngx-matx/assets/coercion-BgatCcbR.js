@@ -1,0 +1,1 @@
+function e(e){return e!=null&&`${e}`!=`false`}export{e as t};

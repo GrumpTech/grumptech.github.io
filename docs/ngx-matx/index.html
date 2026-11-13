@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head><script data-ng-doc-theme-restore>// Restores the reader's theme before the application starts. An empty stored id is the light
+// theme: it removes a `data-theme` that index.html sets by default.
+const themeId = localStorage.getItem('ng-doc-theme-id');
+
+if (themeId !== null) {
+  const documentElement = document.documentElement;
+
+  if (themeId) {
+    documentElement.setAttribute('data-theme', themeId);
+  } else {
+    documentElement.removeAttribute('data-theme');
+  }
+}
+</script>
+    <meta charset="utf-8" />
+    <title>Docs</title>
+    <base href="/docs/ngx-matx/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/docs/ngx-matx/assets/favicon-Be58P3dY.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script>
+      const redirect = sessionStorage.getItem('grumptech_website_redirect');
+      sessionStorage.removeItem('grumptech_website_redirect');
+      if (
+        redirect &&
+        redirect.startsWith(document.baseURI) &&
+        redirect !== location.href
+      ) {
+        history.replaceState(null, '', redirect);
+      }
+    </script>
+    <script type="module" crossorigin src="/docs/ngx-matx/assets/index-AF_mzPIh.js"></script>
+    <link rel="modulepreload" crossorigin href="/docs/ngx-matx/assets/rolldown-runtime-BCiCTKAo.js">
+    <link rel="modulepreload" crossorigin href="/docs/ngx-matx/assets/preload-helper-BK1Oo3cf.js">
+    <link rel="modulepreload" crossorigin href="/docs/ngx-matx/assets/ng-doc-app-processors-page-processor-Dv6j_cOm.js">
+    <link rel="modulepreload" crossorigin href="/docs/ngx-matx/assets/ng-doc-app-providers-type-control-Bl0o5pj2.js">
+    <link rel="stylesheet" crossorigin href="/docs/ngx-matx/assets/index-BVmhPA3w.css">
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>
