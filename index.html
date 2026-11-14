@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GrumpTech: open source tools for web developers</title>
+<meta name="description" content="GrumpTech builds open source developer tools: Formly Designer for low-code forms, EntityWebApi for .NET APIs, and ngx-matx Angular components.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8.4666662 8.4666662'%3E%3Cdefs%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='54.666416' y1='81.968521' x2='162.27881' y2='144.27896' gradientTransform='matrix(0.13244181,0,0,0.13244181,2.6062792,-0.34054749)'%3E%3Cstop offset='0' stop-color='%23007ac7'/%3E%3Cstop offset='1' stop-color='%2321caf5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg transform='translate(-8.4560568,-9.7197616)'%3E%3Cpath fill='url(%23g)' d='m 9.6714079,17.221982 -0.9507676,-0.957647 8.192e-4,-4.623988 0.8061844,-0.806732 1.1383831,1.14031 0.0011,3.521012 0.714808,0.727122 h 2.940072 l 1.169951,1.191945 -0.769804,0.7704 -4.100198,-0.005 -0.9507661,-0.957649 z M 14.660755,15.950287 V 14.80286 h -2.001654 l -0.82798,-0.844512 0.832804,-0.837499 h 3.959173 l -0.0019,3.145011 -0.812903,0.832906 z M 13.969681,11.684135 H 11.00437 L 9.8463979,10.515514 10.635987,9.7217858 h 4.08819 l 1.933963,1.9683282 -2.006149,0.668137 z'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E9EDEE; --ink:#1B2429; --muted:#4B6069; --rule:#C3CCD0; --accent:#5A3E85; --accent-ink:#fff; --panel:#DCE3E5;
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Literata",Georgia,"Times New Roman",serif;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#14191C;--ink:#E6ECEE;--muted:#9AAAB2;--rule:#2B353B;--accent:#B9A2F0;--accent-ink:#14191C;--panel:#1C2428;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#14191C;--ink:#E6ECEE;--muted:#9AAAB2;--rule:#2B353B;--accent:#B9A2F0;--accent-ink:#14191C;--panel:#1C2428;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:.2em;text-decoration-thickness:2px}
+a:hover{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem}
+header{display:flex;justify-content:space-between;align-items:baseline;padding:1.5rem 0;gap:1rem;flex-wrap:wrap}
+.logo{display:inline-flex;align-items:center;gap:.6rem;font:800 1.35rem var(--display);text-decoration:none;letter-spacing:-.01em}
+.logo svg{width:2rem;height:2rem;flex:none}
+nav a{font:500 1rem var(--display);margin-left:1.25rem;text-decoration:none}
+nav a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.hero{padding:clamp(3rem,10vw,7rem) 0 clamp(3rem,8vw,5rem);border-bottom:2px solid var(--ink)}
+h1{font:800 clamp(2rem,5.5vw,3.9rem)/1.05 var(--display);letter-spacing:-.035em;margin:0 0 1.75rem;max-width:20ch}
+.lede{font-size:1.25rem;max-width:36rem;margin:0 0 2rem;color:var(--muted)}
+.btns{display:flex;gap:.75rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.75rem 1.4rem;font:500 1rem var(--display);text-decoration:none;border:2px solid var(--ink);border-radius:4px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn:hover{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+section{padding:clamp(2.5rem,6vw,4.5rem) 0;border-bottom:1px solid var(--rule)}
+h2{font:800 clamp(1.8rem,4vw,2.6rem)/1.1 var(--display);letter-spacing:-.02em;margin:0 0 1.5rem}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr) auto;gap:1rem 2rem;padding:1.75rem 0;border-top:1px solid var(--rule);align-items:start}
+.row:last-child{border-bottom:1px solid var(--rule)}
+.row h3{font:800 1.5rem/1.15 var(--display);margin:0;letter-spacing:-.01em}
+.row p{margin:0;max-width:34rem}
+.links{display:flex;flex-direction:column;gap:.35rem;font:500 .95rem var(--display);min-width:8rem}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:2rem 4rem}
+.split p{margin:0 0 1rem;max-width:34rem}
+.note{background:var(--panel);border-left:4px solid var(--accent);padding:1.25rem 1.5rem;border-radius:0 4px 4px 0}
+.note p{margin:0}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+@media (max-width:760px){
+  .row{grid-template-columns:1fr}
+  .links{flex-direction:row;gap:1.25rem;flex-wrap:wrap}
+  .split{grid-template-columns:1fr}
+  nav a{margin:0 1.25rem 0 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="#top"><svg viewBox="0 0 8.4666662 8.4666662" aria-hidden="true" focusable="false"><defs><linearGradient id="logo-grad" gradientUnits="userSpaceOnUse" x1="54.666416" y1="81.968521" x2="162.27881" y2="144.27896" gradientTransform="matrix(0.13244181,0,0,0.13244181,2.6062792,-0.34054749)"><stop offset="0" stop-color="#007ac7"/><stop offset="1" stop-color="#21caf5"/></linearGradient></defs><g transform="translate(-8.4560568,-9.7197616)"><path fill="url(#logo-grad)" d="m 9.6714079,17.221982 -0.9507676,-0.957647 8.192e-4,-4.623988 0.8061844,-0.806732 1.1383831,1.14031 0.0011,3.521012 0.714808,0.727122 h 2.940072 l 1.169951,1.191945 -0.769804,0.7704 -4.100198,-0.005 -0.9507661,-0.957649 z M 14.660755,15.950287 V 14.80286 h -2.001654 l -0.82798,-0.844512 0.832804,-0.837499 h 3.959173 l -0.0019,3.145011 -0.812903,0.832906 z M 13.969681,11.684135 H 11.00437 L 9.8463979,10.515514 10.635987,9.7217858 h 4.08819 l 1.933963,1.9683282 -2.006149,0.668137 z"/></g></svg>GrumpTech</a>
+    <nav aria-label="Main">
+      <a href="#projects">Projects</a>
+      <a href="#licensing">Licensing</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <h1>Open source tools for web developers who’d rather not repeat themselves.</h1>
+      <p class="lede">GrumpTech builds a visual form designer, .NET API generation, Angular components, and PDF templating.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">See our projects</a>
+      </div>
+    </div>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="row">
+        <h3>Formly Designer</h3>
+        <p>A visual form designer and component library for low-code frontend development, built on top of Formly. Edit forms in a playground and generate a frontend from an OpenAPI definition.</p>
+        <div class="links">
+          <a href="https://grumptech.github.io/demos/formly-designer">Live demo</a>
+          <a href="https://github.com/GrumpTech/formly-designer-sample#formly-designer-sample">Sample app</a>
+          <a href="https://github.com/GrumpTech/formly-designer">GitHub</a>
+        </div>
+      </div>
+      <div class="row">
+        <h3>EntityWebApi</h3>
+        <p>Generate .NET web APIs from your entities with minimal code.</p>
+        <div class="links">
+          <a href="https://github.com/GrumpTech/entity-web-api">GitHub</a>
+        </div>
+      </div>
+      <div class="row">
+        <h3>ngx-matx</h3>
+        <p>A collection of Angular components and utilities built on top of Angular Material to simplify app development.</p>
+        <div class="links">
+          <a href="https://grumptech.github.io/docs/ngx-matx">Documentation</a>
+          <a href="https://github.com/GrumpTech/ngx-matx">GitHub</a>
+        </div>
+      </div>
+      <div class="row">
+        <h3>Templates</h3>
+        <p>Experiments in PDF generation with open-source libraries, using Mustache as the template language for its simple syntax and wide support. Edit a template and preview the output instantly.</p>
+        <div class="links">
+          <a href="https://grumptech.github.io/demos/mustache-editor">Live demo</a>
+          <a href="https://grumptech.github.io/projects/templates">Project page</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="licensing">
+      <h2>Licensing and support</h2>
+      <div class="split">
+        <div>
+          <p>Our projects are open source. Formly Designer is dual licensed, and that licensing helps fund its continued development.</p>
+          <p>If you use Formly Designer in a product, read the licensing details before you ship.</p>
+          <p><a class="btn" href="https://grumptech.github.io/products/formly-designer/">Formly Designer product info</a></p>
+        </div>
+        <div class="note"><p>Using an open source tool at work? Supporting its development is how it stays maintained.</p></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About GrumpTech</h2>
+      <div class="split">
+        <p>We build tools for the parts of web development that feel repetitive: wiring up forms, exposing entities through an API, assembling the same Angular components again, and generating documents.</p>
+        <p>Every project ships with a live demo, a sample, or documentation, so you can judge it before you install it.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Found a bug or have a request? Open an issue on the project’s GitHub repository, or browse everything we publish on our GitHub page.</p>
+      <p><a class="btn primary" href="https://github.com/GrumpTech">GrumpTech on GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>GrumpTech. Open source projects for web developers.</span>
+    <a href="https://github.com/GrumpTech">github.com/GrumpTech</a>
+  </footer>
+</div>
+</body>
+</html>
